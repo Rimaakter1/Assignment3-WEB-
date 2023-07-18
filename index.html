@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baking Courses</title>
+    <style>
+        .header-style {
+            text-align: center;
+        }
+
+        .btn-style {
+            background-color: rgb(239, 139, 172);
+            padding: 10px;
+            margin-right: 7.5px;
+            margin-left: 7.5px;
+        }
+
+        .title-style {
+            background-color: black;
+            color: rgb(235, 151, 179);
+            padding: 10px;
+            text-align: center;
+        }
+
+        .equipment {
+            background-color: rgb(236, 155, 182);
+        }
+
+        .equipment img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* width: 50%; */
+        }
+
+        .list-style {
+            list-style: none;
+            text-align: center;
+        }
+
+        .class-img {
+            display: flex;
+
+        }
+
+
+        #offline-img1 {
+            width: 350px;
+            height: 280px;
+            margin-left: 55px;
+            margin-top: 98px;
+        }
+
+        #offline-img2 {
+            width: 400px;
+            height: 380px;
+        }
+
+        #offline-img3 {
+            width: 350px;
+            height: 280px;
+            margin-right: 55px;
+            margin-top: 98px;
+
+        }
+
+        .form-style {
+            background-color: rgb(143, 143, 143);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class="header-style">
+        <h1>Baking Courses</h1>
+        <button class="btn-style"><a href="#form">REGISTRATION</a></button>
+    </header>
+
+    <main>
+        <section>
+            <h1>EXPLORE THINGS</h1>
+            <ol>
+                <li><a href="#needed-items">The items are needed for baking class?</a></li>
+                <li><a href="#baking-class">The items you will Learn in our Baking Class</a></li>
+                <li><a href="#offline-classes">Some pictures of our offline class</a></li>
+            </ol>
+        </section>
+        <section id="needed-items">
+            <p class="title-style">What items are needed for baking class?</p>
+            <fieldset class="equipment">
+                <legend>Essential Baking Equipment</legend>
+                <img src="images/1.jpg" alt="">
+                <div>
+                    <ul class="list-style">
+                        <li>Cake Tins</li>
+                        <li>Food Mixer</li>
+                        <li>Measuring Spoons</li>
+                        <li>Mixing Bowls</li>
+                        <li>Measuring Cups</li>
+                        <li>Parchment Paper</li>
+                        <li>Food processor</li>
+                    </ul>
+                </div>
+            </fieldset>
+        </section>
+        <section id="baking-class">
+            <p class="title-style">What items you will learn in baking classes?</p>
+            <fieldset class="equipment">
+                <legend>The items YOu will Learn in our Baking class</legend>
+                <div>
+                    <ul>
+                        <li>Cake Tins</li>
+                        <li>Food Mixer</li>
+                        <li>Measuring Spoons</li>
+                        <li>Mixing Bowls</li>
+                        <li>Measuring Cups</li>
+                        <li>Parchment Paper</li>
+                        <li>Food processor</li>
+                    </ul>
+                </div>
+            </fieldset>
+        </section>
+        <section id="offline-classes">
+            <p class="title-style">Pictures from our classes</p>
+            <fieldset class="equipment">
+                <legend>Some pictures of our offline class</legend>
+                <div class="class-img">
+                    <img id="offline-img1" src="images/bc-2.jpg" alt="">
+                    <img id="offline-img2" src="images/bc-1.jpg" alt="">
+                    <img id="offline-img3" src="images/bc-3.jpg" alt="">
+                </div>
+            </fieldset>
+        </section>
+        <section id="form">
+            <p class="title-style">Registration From</p>
+            <fieldset class="form-style">
+                <legend>FORM</legend>
+                <form action="#" align="center">
+                    <label for="">Enter Name:</label>
+                    <input type="text" placeholder="Enter your first name" id="first-name" autofocus required>
+                    <br><br>
+                    <label for="">Enter Email</label>
+                    <input type="email" placeholder="example@gmail.com" required>
+                    <br><br>
+                    <label for="">Enter Phone</label>
+                    <input type="tel">
+                    <br><br>
+                    <label for="">Birth Date</label>
+                    <input type="date">
+                    <br><br>
+                    <div>
+                        <label for="">Choose item</label><br>
+                        <input type="radio">
+                        <label for="">Croissant</label><br>
+                        <input type="radio">
+                        <label for="">Cakes</label><br>
+                        <input type="radio">
+                        <label for="">Macarons</label><br>
+                        <input type="radio">
+                        <label for="">Cupcakes</label><br>
+                        <input type="radio">
+                        <label for="">Bread</label><br>
+                        <br>
+                        <label for="">Any comment:</label>
+                        <textarea name="" id="" cols="60" rows="5"></textarea> <br>
+                        <input type="checkbox" name="" id="">
+                        <label for="">Accept the term and conditions</label> <br> <br>
+                        <input class="btn-style" type="submit" value="Submit">
+                        <input class="btn-style" type="submit" value="Submit">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+
+    </main>
+</body>
+
+</html>
